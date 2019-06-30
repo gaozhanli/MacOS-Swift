@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023920F422A0E7FD00AC981B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023920F322A0E7FD00AC981B /* LoginViewController.swift */; };
+		023920F622A0E8D900AC981B /* LoginUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023920F522A0E8D900AC981B /* LoginUserInfo.swift */; };
+		023920FA22A0E94600AC981B /* ExtUIVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023920F922A0E94600AC981B /* ExtUIVew.swift */; };
+		023920FC22A0EF5F00AC981B /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023920FB22A0EF5F00AC981B /* SignViewController.swift */; };
+		024E6FE222A15CE600ACEF0F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E6FE122A15CE600ACEF0F /* Constant.swift */; };
+		024E6FE422A1679100ACEF0F /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E6FE322A1679100ACEF0F /* ChangePasswordViewController.swift */; };
+		024E6FE622A192CE00ACEF0F /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E6FE522A192CE00ACEF0F /* SourceViewController.swift */; };
+		024E6FE822A3753300ACEF0F /* pinYin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E6FE722A3753300ACEF0F /* pinYin.swift */; };
+		0252C824229A89D90024861E /* InsertStudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C823229A89D90024861E /* InsertStudentInfoViewController.swift */; };
+		026738EB229D4DBA00BB7027 /* ResultTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026738EA229D4DBA00BB7027 /* ResultTableTableViewController.swift */; };
+		026738ED229D652F00BB7027 /* SpecialInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026738EC229D652F00BB7027 /* SpecialInfoViewController.swift */; };
 		0268D1E82294CD2D006D0660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268D1E72294CD2D006D0660 /* AppDelegate.swift */; };
 		0268D1EA2294CD2D006D0660 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268D1E92294CD2D006D0660 /* FirstViewController.swift */; };
 		0268D1EC2294CD2D006D0660 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268D1EB2294CD2D006D0660 /* SecondViewController.swift */; };
 		0268D1EF2294CD2D006D0660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0268D1ED2294CD2D006D0660 /* Main.storyboard */; };
 		0268D1F12294CD2F006D0660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0268D1F02294CD2F006D0660 /* Assets.xcassets */; };
 		0268D1F42294CD2F006D0660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0268D1F22294CD2F006D0660 /* LaunchScreen.storyboard */; };
+		0268D1FD2294CD63006D0660 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0268D1FC2294CD63006D0660 /* libsqlite3.0.tbd */; };
+		0268D2032294CF96006D0660 /* createDateTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268D2022294CF96006D0660 /* createDateTable.swift */; };
+		0268D20A2294D179006D0660 /* SqliteConnnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268D2092294D179006D0660 /* SqliteConnnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023920F322A0E7FD00AC981B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		023920F522A0E8D900AC981B /* LoginUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserInfo.swift; sourceTree = "<group>"; };
+		023920F922A0E94600AC981B /* ExtUIVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIVew.swift; sourceTree = "<group>"; };
+		023920FB22A0EF5F00AC981B /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		024E6FE122A15CE600ACEF0F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		024E6FE322A1679100ACEF0F /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		024E6FE522A192CE00ACEF0F /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		024E6FE722A3753300ACEF0F /* pinYin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinYin.swift; sourceTree = "<group>"; };
+		0252C823229A89D90024861E /* InsertStudentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertStudentInfoViewController.swift; sourceTree = "<group>"; };
+		026738EA229D4DBA00BB7027 /* ResultTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableTableViewController.swift; sourceTree = "<group>"; };
+		026738EC229D652F00BB7027 /* SpecialInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialInfoViewController.swift; sourceTree = "<group>"; };
 		0268D1E42294CD2D006D0660 /* EducationAdministrators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducationAdministrators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0268D1E72294CD2D006D0660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0268D1E92294CD2D006D0660 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +49,10 @@
 		0268D1F02294CD2F006D0660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0268D1F32294CD2F006D0660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0268D1F52294CD2F006D0660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0268D1FC2294CD63006D0660 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0268D1FE2294CDA9006D0660 /* EducationAdministrators-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EducationAdministrators-Bridging-Header.h"; sourceTree = "<group>"; };
+		0268D2022294CF96006D0660 /* createDateTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createDateTable.swift; sourceTree = "<group>"; };
+		0268D2092294D179006D0660 /* SqliteConnnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteConnnection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +60,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0268D1FD2294CD63006D0660 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023920F222A0E74100AC981B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				023920F322A0E7FD00AC981B /* LoginViewController.swift */,
+				023920F522A0E8D900AC981B /* LoginUserInfo.swift */,
+				023920F922A0E94600AC981B /* ExtUIVew.swift */,
+				023920FB22A0EF5F00AC981B /* SignViewController.swift */,
+				024E6FE122A15CE600ACEF0F /* Constant.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0252C822229A873E0024861E /* SqliteOperator */ = {
+			isa = PBXGroup;
+			children = (
+				0268D2022294CF96006D0660 /* createDateTable.swift */,
+				0268D2092294D179006D0660 /* SqliteConnnection.swift */,
+			);
+			path = SqliteOperator;
+			sourceTree = "<group>";
+		};
 		0268D1DB2294CD2D006D0660 = {
 			isa = PBXGroup;
 			children = (
+				023920F222A0E74100AC981B /* Login */,
+				0252C822229A873E0024861E /* SqliteOperator */,
 				0268D1E62294CD2D006D0660 /* EducationAdministrators */,
 				0268D1E52294CD2D006D0660 /* Products */,
+				0268D1FB2294CD63006D0660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +112,28 @@
 			children = (
 				0268D1E72294CD2D006D0660 /* AppDelegate.swift */,
 				0268D1E92294CD2D006D0660 /* FirstViewController.swift */,
+				026738EA229D4DBA00BB7027 /* ResultTableTableViewController.swift */,
 				0268D1EB2294CD2D006D0660 /* SecondViewController.swift */,
 				0268D1ED2294CD2D006D0660 /* Main.storyboard */,
+				026738EC229D652F00BB7027 /* SpecialInfoViewController.swift */,
+				024E6FE322A1679100ACEF0F /* ChangePasswordViewController.swift */,
+				024E6FE522A192CE00ACEF0F /* SourceViewController.swift */,
+				024E6FE722A3753300ACEF0F /* pinYin.swift */,
 				0268D1F02294CD2F006D0660 /* Assets.xcassets */,
 				0268D1F22294CD2F006D0660 /* LaunchScreen.storyboard */,
 				0268D1F52294CD2F006D0660 /* Info.plist */,
+				0268D1FE2294CDA9006D0660 /* EducationAdministrators-Bridging-Header.h */,
+				0252C823229A89D90024861E /* InsertStudentInfoViewController.swift */,
 			);
 			path = EducationAdministrators;
+			sourceTree = "<group>";
+		};
+		0268D1FB2294CD63006D0660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0268D1FC2294CD63006D0660 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +168,7 @@
 				TargetAttributes = {
 					0268D1E32294CD2D006D0660 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -138,9 +208,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023920F422A0E7FD00AC981B /* LoginViewController.swift in Sources */,
 				0268D1EC2294CD2D006D0660 /* SecondViewController.swift in Sources */,
 				0268D1E82294CD2D006D0660 /* AppDelegate.swift in Sources */,
+				024E6FE222A15CE600ACEF0F /* Constant.swift in Sources */,
+				023920FC22A0EF5F00AC981B /* SignViewController.swift in Sources */,
+				024E6FE622A192CE00ACEF0F /* SourceViewController.swift in Sources */,
+				0268D2032294CF96006D0660 /* createDateTable.swift in Sources */,
 				0268D1EA2294CD2D006D0660 /* FirstViewController.swift in Sources */,
+				0268D20A2294D179006D0660 /* SqliteConnnection.swift in Sources */,
+				0252C824229A89D90024861E /* InsertStudentInfoViewController.swift in Sources */,
+				026738EB229D4DBA00BB7027 /* ResultTableTableViewController.swift in Sources */,
+				024E6FE822A3753300ACEF0F /* pinYin.swift in Sources */,
+				024E6FE422A1679100ACEF0F /* ChangePasswordViewController.swift in Sources */,
+				026738ED229D652F00BB7027 /* SpecialInfoViewController.swift in Sources */,
+				023920F622A0E8D900AC981B /* LoginUserInfo.swift in Sources */,
+				023920FA22A0E94600AC981B /* ExtUIVew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EducationAdministrators/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,6 +378,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gao.EducationAdministrators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EducationAdministrators/EducationAdministrators-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EducationAdministrators/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gao.EducationAdministrators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EducationAdministrators/EducationAdministrators-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
